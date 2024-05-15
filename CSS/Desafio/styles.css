@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+div {
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+.cabeçalho {
+    font-weight: 400;
+    font-size: 14px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.075px;
+}
+
+img {
+    margin: 163px 0px 0px 123px;
+    display: inline-block;
+}
+
+.button-top {
+    font-size: 16px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    padding: 13px 29px 14px 28px;
+    cursor: pointer;    
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+}
+
+h1 {
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        color: #161A49;
+        width: 582px;
+        margin-top: 277.2px;
+        margin-bottom: 47px;
+    
+}
+
+p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #848484;
+    width: 515px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-abaixo {
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        align-items: center;
+        text-align: center;
+        color: #161A49;
+        width: 278px;
+        margin-top: 124px;
+    
+    }
+    
+    section {
+        display: block;
+    }
+    
+    p{
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        color: #848484;
+        width: 304px;
+        letter-spacing: 0.5px;
+        margin-top: 29px;
+        
+    }
+
+    .cabeçalho {
+        display: none;
+    }
+
+    .button-top {
+        margin: 17px 15px 0px 284px;
+        font-size: 16px;
+        border-radius: 6px;
+        color: #FFFFFF;
+        width: 124px;
+        height: 51px;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        font-weight: 500;
+        padding: 13px 29px 14px 28px;
+        cursor: pointer;    
+    }
+    
+    img {
+        width: 100vw;
+        margin: 380px 20% 22px 7%;
+        display: block;
+        position: absolute;
+    }
+
+    .link-abaixo {
+        color: #6FBF44;
+        font-weight: 500;
+        font-size: 18px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin-left: 100px;
+    }
+}

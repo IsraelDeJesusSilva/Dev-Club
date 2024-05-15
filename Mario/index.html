@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Mario Bross</title>
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+        <img src="./img/logo-header.png" alt="Logo da cabeça do Mario">
+            <div>
+                <a href="https://encanadoresmariobrothers.netlify.app/">Home</a>
+            </div>
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=5579991414262&text=Ol%C3%A1%20quer%20ajuda%20dos%20irm%C3%A3os%20mario%20?">Nossos Serviços</a>
+            </div>
+            <div>
+
+            <a href="https://api.whatsapp.com/send?phone=5579991414262&text=Ol%C3%A1%20quer%20ajuda%20dos%20irm%C3%A3os%20mario%20?">Fale Conosco</a>
+            </div>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" alt="Logo do Mario Bross">
+            <p>Encanadores Mario e Luigi - Resolvendo seus problemas com Estilo!</p>
+            <p>Você já se encontrou com uma situação de emergência com encanamento ? Vazamento inesperados,canos
+                intupidos ou
+                torneiras que não pram de pingar? Não se preocupe porque estamos aqui para salvar o dia! Apresentamos a
+                vocês os
+                encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi !</p>
+               
+                <button onclick="mostrarForm()">Entre em Contato</button>
+                </button>
+        </div class= "imagem-mario-luigi">
+        <img src="./img/mario.png" alt="Logo do Mario e Luigi">
+
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=5579991414262&text=Ol%C3%A1%20quer%20ajuda%20dos%20irm%C3%A3os%20mario%20?">
+        <img class="whatsapp" src="./img/whatsapp.png">
+    </a>
+    <form
+        class="formulario-fale-conosco"  
+        action="https://formcarry.com/s/kE7lvm4aUom"
+        method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu Nome" type="text" name="nome">
+            <input placeholder="Seu Telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+            <button type="submit">Pedir Orçamento</button>
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
